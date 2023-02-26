@@ -438,13 +438,3 @@ junta_pontes(Estado, Num_pontes, Ilha1, Ilha2, Novo_estado) :-
     posicao_ilha(Ilha2, Pos2),
     actualiza_vizinhas_apos_pontes(N_estado, Pos1, Pos2, Estado_aux),
     trata_ilhas_terminadas(Estado_aux, Novo_estado).
-
-
-
-
-
-    
-
-
-    
-    
